@@ -33,6 +33,7 @@ const App = () => {
         <Route index element={<Home />} />
         <Route
           path="/register"
+          PersistGate
           element={
             <RestrictedRoute redirectTo="/contacts" component={<Register />} />
           }
