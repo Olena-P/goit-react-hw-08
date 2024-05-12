@@ -2,7 +2,7 @@ import { useDispatch } from "react-redux";
 import { signup } from "../../redux/auth/operations";
 import { getCurrentUser } from "../../redux/auth/operations";
 
-const RegisterForm = () => {
+const RegistrationForm = () => {
   const dispatch = useDispatch();
 
   const handleSubmit = async (e) => {
@@ -90,4 +90,4 @@ const RegisterForm = () => {
   );
 };
 
-export default RegisterForm;
+export default RegistrationForm;
